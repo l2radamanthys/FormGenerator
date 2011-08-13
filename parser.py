@@ -16,6 +16,7 @@ class Form:
 
     def parse_data(self, data=[]):
         """
+
         """
         if "form" in data[0].lower():
             self.parse_headers(data.pop(0))
@@ -37,8 +38,6 @@ class Form:
                     self.parse_field(parametros)
 
 
-
-
     def parse_headers(self, line):
         """
             Parsea las cabecera del formulario
@@ -47,7 +46,6 @@ class Form:
         for param in parametros:
             key,value = param.split("=")
             self.header[key] = value
-
 
 
     def parse_field(self, parametros):
@@ -97,13 +95,7 @@ class Form:
     def generate(self):
         """
         """
-        pass
 
-    
-    def generate_with_table(self):
-        """
-        """
-        pass
 
 
 
