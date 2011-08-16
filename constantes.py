@@ -14,11 +14,7 @@ html_ini = """
 
 <body>
 """
-
 html_end = "\n</body>\n</html>"
-
-
-
 form_ini = "<form {tags} >"
 form_end = "</form>"
 
@@ -134,7 +130,7 @@ select = {
     "label": "",
     "class": "",
     "id": "",
-    tags: {},
+    "tags": {},
 }
 
 key_dict = {
@@ -151,7 +147,11 @@ key_dict = {
     "select": select,
 }
 
-
-
+#variables de App por defectos configuradas para funcionar en Windows
+#
+#navegador para visualizar la salida
+NAVEGADOR = "explorer"
+#editor para visualizar la salida
+EDITOR = "notepad"
 
 
