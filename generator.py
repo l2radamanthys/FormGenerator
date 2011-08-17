@@ -15,7 +15,7 @@ from sys import argv
 from os import system
 
 from form_parser import Form
-
+from constantes import EDITOR, NAVEGADOR
 
 
 def main():
