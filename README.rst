@@ -24,6 +24,7 @@ Sintaxis
     - radio
     - submit
     - reset
+    - button
     - image
     - hidden
     - textarea
@@ -43,7 +44,17 @@ Sintaxis
     %exc%
 
     ejemplo:
-        >>> %exc% Esto es un comentario, esta linea se obiara
+        %exc% Esto es un comentario, esta linea se obiara
+
+
+    Select
+        El elemento select es especial se puede definir un select de 2 formas,
+        como ejemplo tomaremos un select para definir sexo
+
+    1- select;label=Sexo;name=nombre;class=edt;
+
+    2- select;label=Sexo;name=nombre;class=edt;
+       $M=Masculino;F=Femenino;N=No Definido;
 
 
     Parametros que comparten todos los Elementos
@@ -57,9 +68,29 @@ Sintaxis
     (**) Exepto los elementos hidden
 
 
-    Parametros Elementos text
-    -------------------------
+    Parametros Elementos text y password
+    ------------------------------------
     - value
     - size
     - maxlenght
 
+
+    Parametros Elementos radio, checkbox, hidden, button, reset, submit
+    --------------------------------------------------------------------
+    - value
+
+
+    Parametros Elemento textarea
+    ----------------------------
+    - text : contenido
+    - rows
+    - cols
+    - tabindex
+    - wrap (off, virtual, physical)
+
+
+    Parametros Elemento select
+    --------------------------
+    - size
+    - multiple
+    

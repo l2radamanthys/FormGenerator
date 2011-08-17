@@ -11,7 +11,6 @@ html_ini = """
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="generator" content="FormGenerator" />
 </head>
-
 <body>
 """
 html_end = "\n</body>\n</html>"
